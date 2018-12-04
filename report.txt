@@ -1,0 +1,331 @@
+---------------------------------------------------------------------------
+1 (Local) D:\work\afd\Page2.cpp:308 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'unsigned int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+2 (Local) D:\work\afd\Page2.cpp:312 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'unsigned int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+3 (Local) D:\work\afd\Page2.cpp:339 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+4 (Local) D:\work\afd\Page2.cpp:343 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+5 (Local) D:\work\afd\Page2.cpp:371 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+6 (Local) D:\work\afd\Page2.cpp:375 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+7 (Local) D:\work\afd\Page2.cpp:401 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+8 (Local) D:\work\afd\Page2.cpp:402 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+9 (Local) D:\work\afd\Page2.cpp:407 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+10 (Local) D:\work\afd\Page2.cpp:408 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+11 (Local) D:\work\afd\Page2.cpp:454 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+12 (Local) D:\work\afd\Page2.cpp:458 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+13 (Local) D:\work\afd\AlexfPerf.cpp:190 NPD.FUNC.MIGHT (1:Critical) Analyze
+Pointer 'pdb' returned from call to function 'HeapAlloc' at line 177 may be NULL and may be dereferenced at line 190.
+  * AlexfPerf.cpp:177: 'pdb' is assigned the return value from function 'HeapAlloc'.
+  * AlexfPerf.cpp:180: Not entering loop, because 234==RegQueryValueExA( ( (HKEY) (ULONG_PTR) ( (LONG)2147483652) ), m_SObj, 0, 0,  (LPBYTE)pdb,  &dwBytes) is false
+  * AlexfPerf.cpp:190: 'pdb' is explicitly dereferenced.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+14 (Local) D:\work\afd\AlexfPerf.cpp:190 NPD.FUNC.MIGHT (1:Critical) Analyze
+Pointer 'pdb' returned from call to function 'HeapReAlloc' at line 186 may be NULL and may be dereferenced at line 190.
+  * AlexfPerf.cpp:180: Continue loop iteration, while 234==RegQueryValueExA( ( (HKEY) (ULONG_PTR) ( (LONG)2147483652) ), m_SObj, 0, 0,  (LPBYTE)pdb,  &dwBytes) is true
+  * AlexfPerf.cpp:186: 'pdb' is assigned the return value from function 'HeapReAlloc'.
+  * AlexfPerf.cpp:190: 'pdb' is explicitly dereferenced.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+15 (Local) D:\work\afd\AlexfPerf.cpp:291 CL.FFM.COPY (3:Warning) Analyze
+Double freeing of freed memory may be in class 'CAlexfPerf'. Copy constructor is not defined.
+  * AlexfPerf.cpp:291: Possible release of the same pointer 'm_p95' several times in the destructor.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+16 (Local) D:\work\afd\AlexfPerf.cpp:291 CL.FFM.ASSIGN (3:Warning) Analyze
+Double freeing of freed memory may be in class 'CAlexfPerf'. Operator= is not defined.
+  * AlexfPerf.cpp:291: Possible release of the same pointer 'm_p95' several times in the destructor.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+17 (Local) D:\work\afd\AlexfPerf.cpp:301 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED (4:Review) Analyze
+sprintf format specification '%04ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+18 (Local) D:\work\afd\Page5.cpp:36 MLK.MUST (2:Error) Analyze
+Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 36
+  * Page5.cpp:33: Dynamic memory stored in 'p_str' is allocated by calling function 'new[]'.
+  * Page5.cpp:36: Dynamic memory stored in 'p_str' is lost.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+19 (Local) D:\work\afd\Page5.cpp:39 MLK.MUST (2:Error) Analyze
+Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 39
+  * Page5.cpp:33: Dynamic memory stored in 'p_str' is allocated by calling function 'new[]'.
+  * Page5.cpp:39: Dynamic memory stored in 'p_str' is lost.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+20 (Local) D:\work\afd\Page5.cpp:41 MLK.MUST (2:Error) Analyze
+Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 41
+  * Page5.cpp:33: Dynamic memory stored in 'p_str' is allocated by calling function 'new[]'.
+  * Page5.cpp:41: Dynamic memory stored in 'p_str' is lost.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+21 (Local) D:\work\afd\Page5.cpp:41 MLK.MIGHT (2:Error) Analyze
+Possible memory leak. Dynamic memory stored in 'pVerInfo' allocated through function 'new[]' at line 38 can be lost at line 41
+  * Page5.cpp:38: Dynamic memory stored in 'pVerInfo' is allocated by calling function 'new[]'.
+  * Page5.cpp:39: !pVerInfo is false
+  * Page5.cpp:40: !GetFileVersionInfoA(pszFileName, 0, cbVerInfo, pVerInfo) is true
+  * Page5.cpp:41: Dynamic memory stored in 'pVerInfo' is lost.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+22 (Local) D:\work\afd\Page5.cpp:73 MLK.MUST (2:Error) Analyze
+Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 73
+  * Page5.cpp:33: Dynamic memory stored in 'p_str' is allocated by calling function 'new[]'.
+  * Page5.cpp:73: Dynamic memory stored in 'p_str' is lost.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+23 (Local) D:\work\afd\Page5.cpp:289 NPD.FUNC.MUST (1:Critical) Analyze
+Pointer 'fil' returned from call to function 'fopen' at line 288 may be NULL and will be dereferenced at line 289.
+  * Page5.cpp:288: 'fil' is assigned the return value from function 'fopen'.
+  * Page5.cpp:289: 'fil' is dereferenced by passing argument 4 to function 'fwrite'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+24 (Local) D:\work\afd\IMapi.cpp:29 UNINIT.CTOR.MIGHT (1:Critical) Analyze
+'this->m_lpfnSendMail' might not be initialized in this constructor.
+  * IMapi.cpp:22: m_hInstMail== (HINSTANCE)0 is true
+  * IMapi.cpp:29: 'this->m_lpfnSendMail' is used, but is uninitialized.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+25 (Local) D:\work\afd\IMapi.cpp:76 NPD.FUNC.MUST (1:Critical) Analyze
+Pointer 'this->m_message.lpRecips' returned from call to function 'realloc' at line 75 may be NULL and will be dereferenced at line 76.
+  * IMapi.cpp:75: 'this->m_message.lpRecips' is assigned the return value from function 'realloc'.
+  * IMapi.cpp:76: 'this->m_message.lpRecips' is dereferenced by passing argument 1 to function 'memset'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+26 (Local) D:\work\afd\IMapi.cpp:116 NPD.FUNC.MUST (1:Critical) Analyze
+Pointer 'this->m_message.lpFiles' returned from call to function 'realloc' at line 115 may be NULL and will be dereferenced at line 116.
+  * IMapi.cpp:115: 'this->m_message.lpFiles' is assigned the return value from function 'realloc'.
+  * IMapi.cpp:116: 'this->m_message.lpFiles' is dereferenced by passing argument 1 to function 'memset'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+27 (Local) D:\work\afd\Page1.cpp:44 ABV.GENERAL (1:Critical) Analyze
+Array 'a' of size 10 may use index value(s) 10
+  * Page1.cpp:41: Array 'a' size is 10.
+  * Page1.cpp:43: i = 0
+  * Page1.cpp:43: Entering loop, because i<=10 is true
+  * Page1.cpp:43: 'i' iterates from 0 to 10.
+    * Page1.cpp:43: i = i + 1
+      * Page1.cpp:43: Inferred value 'i' is '[0,10]'
+      * Page1.cpp:43: Result of expression 'i + 1' is '[1,11]'
+  * Page1.cpp:44: Possible attempt to access element 10 of array 'a'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+28 (Local) D:\work\afd\Page1.cpp:47 ABV.GENERAL (1:Critical) Analyze
+Array 'a' of size 10 may use index value(s) 11
+  * Page1.cpp:41: Array 'a' size is 10.
+  * Page1.cpp:43: i = 0
+  * Page1.cpp:43: Entering loop, because i<=10 is true
+  * Page1.cpp:43: 'i' iterates from 0 to 10.
+    * Page1.cpp:43: i = i + 1
+      * Page1.cpp:43: Inferred value 'i' is '[0,10]'
+      * Page1.cpp:43: Result of expression 'i + 1' is '[1,11]'
+  * Page1.cpp:47: Possible attempt to access element 11 of array 'a'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+29 (Local) D:\work\afd\Page1.cpp:49 ABV.GENERAL (1:Critical) Analyze
+Array 'a' of size 10 may use index value(s) 11
+  * Page1.cpp:41: Array 'a' size is 10.
+  * Page1.cpp:43: i = 0
+  * Page1.cpp:43: Entering loop, because i<=10 is true
+  * Page1.cpp:43: 'i' iterates from 0 to 10.
+    * Page1.cpp:43: i = i + 1
+      * Page1.cpp:43: Inferred value 'i' is '[0,10]'
+      * Page1.cpp:43: Result of expression 'i + 1' is '[1,11]'
+  * Page1.cpp:49: Inferred value 'i' is '== 11'
+  * Page1.cpp:49: Possible attempt to access element 11 of array 'a'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+30 (Local) D:\work\afd\Page1.cpp:51 ABV.GENERAL (1:Critical) Analyze
+Array 'a' of size 10 may use index value(s) 12
+  * Page1.cpp:41: Array 'a' size is 10.
+  * Page1.cpp:43: i = 0
+  * Page1.cpp:43: Entering loop, because i<=10 is true
+  * Page1.cpp:43: 'i' iterates from 0 to 10.
+    * Page1.cpp:43: i = i + 1
+      * Page1.cpp:43: Inferred value 'i' is '[0,10]'
+      * Page1.cpp:43: Result of expression 'i + 1' is '[1,11]'
+  * Page1.cpp:49: i = i + 1
+    * Page1.cpp:49: Inferred value 'i' is '== 11'
+    * Page1.cpp:49: Result of expression 'i + 1' is '== 12'
+  * Page1.cpp:51: Inferred value 'i' is '== 12'
+  * Page1.cpp:51: Possible attempt to access element 12 of array 'a'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+31 (Local) D:\work\afd\Page1.cpp:366 FMM.MUST (1:Critical) Analyze
+Freeing mismatched memory from 'lpRasEntry'. Memory referenced by 'lpRasEntry' allocated through function 'new[]' at line 359 is illegally freed by passing argument 1 to function 'delete' at line 366
+  * Page1.cpp:360: 0==lpRasEntry is false
+  * Page1.cpp:364: (600+3) ==dwRet is true
+  * Page1.cpp:359: 'lpRasEntry' is allocated by 'new[]'
+  * Page1.cpp:366: 'lpRasEntry' is freed by passing argument 1 to function 'delete'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+32 (Local) D:\work\afd\Page1.cpp:390 FMM.MIGHT (2:Error) Analyze
+Possible freeing of mismatched memory from 'lpRasEntry'. Memory referenced by 'lpRasEntry' allocated through function 'new[]' at line 359 is illegally freed by passing argument 1 to function 'delete' at line 390
+  * Page1.cpp:360: 0==lpRasEntry is false
+  * Page1.cpp:364: (600+3) ==dwRet is false
+  * Page1.cpp:388: 0==cEntry is true
+  * Page1.cpp:359: 'lpRasEntry' is allocated by 'new[]'
+  * Page1.cpp:390: 'lpRasEntry' is freed by passing argument 1 to function 'delete'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+33 (Local) D:\work\afd\Page1.cpp:413 FMM.MIGHT (2:Error) Analyze
+Possible freeing of mismatched memory from 'lpRasEntry'. Memory referenced by 'lpRasEntry' allocated through function 'new[]' at line 359 is illegally freed by passing argument 1 to function 'delete' at line 413
+  * Page1.cpp:360: 0==lpRasEntry is false
+  * Page1.cpp:364: (600+3) ==dwRet is false
+  * Page1.cpp:388: 0==cEntry is false
+  * Page1.cpp:359: 'lpRasEntry' is allocated by 'new[]'
+  * Page1.cpp:413: 'lpRasEntry' is freed by passing argument 1 to function 'delete'.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+34 (Local) D:\work\afd\Afd.cpp:184 SV.FMT_STR.PRINT_FORMAT_MISMATCH.BAD (2:Error) Analyze
+sprintf format specification '%s' expects type 'char*' for 's', but parameter 9 has incompatible type 'CStringT<char,StrTraitMFC<char,ATL::ChTraitsCRT<char> > >'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+35 (Local) D:\work\afd\AfdDlg.cpp:44 CL.MLK (3:Warning) Analyze
+Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page1' allocated in constructor at line 44 is not deallocated in destructor.
+  * AfdDlg.cpp:44: 'page1' is allocated in the constructor.
+  * AfdDlg.cpp:44: 'page1' is not released in the destructor.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+36 (Local) D:\work\afd\AfdDlg.cpp:46 CL.MLK (3:Warning) Analyze
+Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page3' allocated in constructor at line 46 is not deallocated in destructor.
+  * AfdDlg.cpp:46: 'page3' is allocated in the constructor.
+  * AfdDlg.cpp:46: 'page3' is not released in the destructor.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+37 (Local) D:\work\afd\AfdDlg.cpp:47 CL.MLK (3:Warning) Analyze
+Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page4' allocated in constructor at line 47 is not deallocated in destructor.
+  * AfdDlg.cpp:47: 'page4' is allocated in the constructor.
+  * AfdDlg.cpp:47: 'page4' is not released in the destructor.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+38 (Local) D:\work\afd\AfdDlg.cpp:48 CL.MLK (3:Warning) Analyze
+Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page5' allocated in constructor at line 48 is not deallocated in destructor.
+  * AfdDlg.cpp:48: 'page5' is allocated in the constructor.
+  * AfdDlg.cpp:48: 'page5' is not released in the destructor.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+39 (Local) D:\work\afd\AfdDlg.cpp:264 RH.LEAK (2:Error) Analyze
+Resource acquired to 'LoadImageA(AfxGetResourceHandle(),  ( (LPSTR) ( (ULONG_PTR) ( (WORD) (128) ) ) ), 1, 16, 16, 0)' at line 257 may be lost here.
+  * AfdDlg.cpp:253: !bTrayIconCreated is true
+  * AfdDlg.cpp:257: Resource is acquired: 'LoadImageA(AfxGetResourceHandle(),  ( (LPSTR) ( (ULONG_PTR) ( (WORD) (128) ) ) ), 1, 16, 16, 0)' in the call to 'LoadImageA'
+  * AfdDlg.cpp:264: Resource is lost: 'LoadImageA(AfxGetResourceHandle(),  ( (LPSTR) ( (ULONG_PTR) ( (WORD) (128) ) ) ), 1, 16, 16, 0)'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+40 (Local) D:\work\afd\ModulVer.cpp:22 CL.FFM.COPY (3:Warning) Analyze
+Double freeing of freed memory may be in class 'CModuleVersion'. Copy constructor is not defined.
+  * ModulVer.cpp:22: Possible release of the same pointer 'm_pVersionInfo' several times in the destructor.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+41 (Local) D:\work\afd\ModulVer.cpp:22 CL.FFM.ASSIGN (3:Warning) Analyze
+Double freeing of freed memory may be in class 'CModuleVersion'. Operator= is not defined.
+  * ModulVer.cpp:22: Possible release of the same pointer 'm_pVersionInfo' several times in the destructor.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+42 (Local) D:\work\afd\ModulVer.cpp:63 MLK.MIGHT (2:Error) Analyze
+Possible memory leak. Dynamic memory stored in 'this->m_pVersionInfo' allocated through function 'new[]' at line 53 can be lost at line 63
+  * ModulVer.cpp:53: Dynamic memory stored in 'this->m_pVersionInfo' is allocated by calling function 'new[]'.
+  * ModulVer.cpp:54: !GetFileVersionInfoA(filename, 0, len, m_pVersionInfo) is false
+  * ModulVer.cpp:59: !VerQueryValueA(m_pVersionInfo, "\\",  &lpvi,  &iLen) is false
+  * ModulVer.cpp:63: Dynamic memory stored in 'this->m_pVersionInfo' is lost.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+43 (Local) D:\work\afd\ModulVer.cpp:109 MLK.MIGHT (2:Error) Analyze
+Possible memory leak. Dynamic memory stored in 'this->m_pVersionInfo' allocated through function 'new[]' at line 93 can be lost at line 109
+  * ModulVer.cpp:93: Dynamic memory stored in 'this->m_pVersionInfo' is allocated by calling function 'new[]'.
+  * ModulVer.cpp:94: !GetFileVersionInfoA(filename, 0, len, m_pVersionInfo) is false
+  * ModulVer.cpp:102: !VerQueryValueA(m_pVersionInfo, "\\",  &lpvi,  &iLen) is false
+  * ModulVer.cpp:109: Dynamic memory stored in 'this->m_pVersionInfo' is lost.
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+44 (Local) D:\work\afd\ModulVer.cpp:175 RH.LEAK (2:Error) Analyze
+Resource acquired to 'hinst' at line 163 may be lost here.
+  * ModulVer.cpp:163: Resource is acquired: 'hinst' in the call to 'LoadLibraryA'
+  * ModulVer.cpp:175: Resource is lost: 'hinst'
+Current status 'Analyze'
+
+---------------------------------------------------------------------------
+45 (Local) D:\work\afd\ModulVer.cpp:180 RH.LEAK (2:Error) Analyze
+Resource acquired to 'hinst' at line 163 may be lost here.
+  * ModulVer.cpp:163: Resource is acquired: 'hinst' in the call to 'LoadLibraryA'
+  * ModulVer.cpp:180: Resource is lost: 'hinst'
+Current status 'Analyze'
+
+Summary: 45 Local
+45 Total Issue(s)

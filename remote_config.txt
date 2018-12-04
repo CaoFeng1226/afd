@@ -1,0 +1,1 @@
+command=D:\tool\ssh\PuttyClient\plink.exe -pw haojc haojc@192.168.88.129 /data/kw/12.3/cmd/bin/kwdtagent -pd /data/smartwap/water-core/.kwlp --port auto

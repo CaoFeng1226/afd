@@ -1,0 +1,139 @@
+lmstat - Copyright (c) 1989-2017 Flexera Software LLC. All Rights Reserved.
+Flexible License Manager status on Sat 12/23/2017 16:48
+
+[Detecting lmgrd processes...]
+License server status: 27000@haojcpc
+    License file(s) on haojcpc: C:\Data\projects_root12\licenses\haojcpc_PARTNER_CYBERSOFTEK_KSV12_Term_HOST-haojcpc_ISSUED-17-Jul-2017_OrdNum-RO-201602-19003_LC-16100.lic:
+
+   haojcpc: license server UP (MASTER) v11.14.1
+
+Vendor daemon status (on haojcpc):
+
+  klocwork: UP v11.14.1
+Feature usage info:
+
+Users of floatserver2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of floatclient2017:  (Total of 5 licenses issued;  Total of 1 license in use)
+
+  "floatclient2017" v12.0, vendor: klocwork, expiry: 09-feb-2018
+  vendor_string: RO-201602-19003-LC-16100;-1;600;opt;ha
+  floating license
+
+    test haojcpc haojcpc (v12.0) (haojcpc/27000 302), start Sat 12/23 16:37  (linger: 0 / 600)
+
+Users of reviewclient2017:  (Total of 5 licenses issued;  Total of 1 license in use)
+
+  "reviewclient2017" v12.0, vendor: klocwork, expiry: 09-feb-2018
+  vendor_string: RO-201602-19003-LC-16100;-1;600;opt;ha
+  floating license
+
+    haojc haojcpc haojcpc (v12.0) (haojcpc/27000 102), start Sat 12/23 16:14  (linger: 0 / 600)
+
+Users of codereview2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kws101client:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of webapi.linenum2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of continuousanalysis2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of all_languages2017:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of cxx2017:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of java2017:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of csharp2017:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of cxx11:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of java11:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of csharp11:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of cxx10:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of java10:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of csharp10:  (Total of 10 licenses issued;  Total of 0 licenses in use)
+
+Users of kwconan2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwconan:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of webapi.lines2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of webapi.lines11:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of webapi.lines10:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of cahoots2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of cahoots11:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of cahoots10:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of review2017:  (Total of 5 licenses issued;  Total of 1 license in use)
+
+  "review2017" v12.0, vendor: klocwork, expiry: 09-feb-2018
+  vendor_string: RO-201602-19003-LC-16100;-1;600;opt;ha
+  floating license
+
+    haojc haojcpc haojcpc (v12.0) (haojcpc/27000 202), start Sat 12/23 16:14  (linger: 0 / 600)
+
+Users of review11:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of review10:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwcheck2017:  (Total of 5 licenses issued;  Total of 1 license in use)
+
+  "kwcheck2017" v12.0, vendor: klocwork, expiry: 09-feb-2018
+  vendor_string: RO-201602-19003-LC-16100;-1;600;opt;ha
+  floating license
+
+    test haojcpc haojcpc (v12.0) (haojcpc/27000 402), start Sat 12/23 16:37  (linger: 0 / 600)
+
+Users of plugin.eclipse2017:  (Total of 5 licenses issued;  Total of 1 license in use)
+
+  "plugin.eclipse2017" v12.0, vendor: klocwork, expiry: 09-feb-2018
+  vendor_string: RO-201602-19003-LC-16100;-1;600;opt;ha
+  floating license
+
+    test haojcpc haojcpc (v12.0) (haojcpc/27000 1003), start Sat 12/23 16:44  (linger: 399 / 600)
+
+Users of plugin.idea2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of plugin.msvs2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwcheck11:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of plugin.eclipse11:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of plugin.idea11:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of plugin.msvs11:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwcheck10:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of plugin.eclipse10:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of plugin.idea10:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of plugin.msvs10:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwadmin2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwbuildproject2017:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwadmin11:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwbuildproject11:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwadmin10:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwbuildproject10:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+Users of kwstructure101:  (Total of 5 licenses issued;  Total of 0 licenses in use)
+
+

@@ -1,0 +1,125 @@
+Page2.cpp:308 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'unsigned int'
+
+Page2.cpp:312 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'unsigned int'
+
+Page2.cpp:339 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page2.cpp:343 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page2.cpp:371 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page2.cpp:375 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page2.cpp:401 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page2.cpp:402 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page2.cpp:407 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page2.cpp:408 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page2.cpp:454 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page2.cpp:458 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+AlexfPerf.cpp:190 NPD.FUNC.MIGHT Analyze
+Pointer 'pdb' returned from call to function 'HeapAlloc' at line 177 may be NULL and may be dereferenced at line 190.
+
+AlexfPerf.cpp:190 NPD.FUNC.MIGHT Analyze
+Pointer 'pdb' returned from call to function 'HeapReAlloc' at line 186 may be NULL and may be dereferenced at line 190.
+
+AlexfPerf.cpp:291 CL.FFM.COPY Analyze
+Double freeing of freed memory may be in class 'CAlexfPerf'. Copy constructor is not defined.
+
+AlexfPerf.cpp:291 CL.FFM.ASSIGN Analyze
+Double freeing of freed memory may be in class 'CAlexfPerf'. Operator= is not defined.
+
+AlexfPerf.cpp:301 SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED Analyze
+sprintf format specification '%04ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'
+
+Page5.cpp:36 MLK.MUST Analyze
+Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 36
+
+Page5.cpp:39 MLK.MUST Analyze
+Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 39
+
+Page5.cpp:41 MLK.MUST Analyze
+Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 41
+
+Page5.cpp:41 MLK.MIGHT Analyze
+Possible memory leak. Dynamic memory stored in 'pVerInfo' allocated through function 'new[]' at line 38 can be lost at line 41
+
+Page5.cpp:73 MLK.MUST Analyze
+Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 73
+
+Page5.cpp:289 NPD.FUNC.MUST Analyze
+Pointer 'fil' returned from call to function 'fopen' at line 288 may be NULL and will be dereferenced at line 289.
+
+IMapi.cpp:29 UNINIT.CTOR.MIGHT Analyze
+'this->m_lpfnSendMail' might not be initialized in this constructor.
+
+Page1.cpp:44 ABV.GENERAL Analyze
+Array 'a' of size 10 may use index value(s) 10
+
+Page1.cpp:47 ABV.GENERAL Analyze
+Array 'a' of size 10 may use index value(s) 11
+
+Page1.cpp:362 FMM.MUST Analyze
+Freeing mismatched memory from 'lpRasEntry'. Memory referenced by 'lpRasEntry' allocated through function 'new[]' at line 355 is illegally freed by passing argument 1 to function 'delete' at line 362
+
+Page1.cpp:386 FMM.MIGHT Analyze
+Possible freeing of mismatched memory from 'lpRasEntry'. Memory referenced by 'lpRasEntry' allocated through function 'new[]' at line 355 is illegally freed by passing argument 1 to function 'delete' at line 386
+
+Page1.cpp:409 FMM.MIGHT Analyze
+Possible freeing of mismatched memory from 'lpRasEntry'. Memory referenced by 'lpRasEntry' allocated through function 'new[]' at line 355 is illegally freed by passing argument 1 to function 'delete' at line 409
+
+Afd.cpp:184 SV.FMT_STR.PRINT_FORMAT_MISMATCH.BAD Analyze
+sprintf format specification '%s' expects type 'char*' for 's', but parameter 9 has incompatible type 'CStringT<char,StrTraitMFC<char,ATL::ChTraitsCRT<char> > >'
+
+AfdDlg.cpp:44 CL.MLK Analyze
+Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page1' allocated in constructor at line 44 is not deallocated in destructor.
+
+AfdDlg.cpp:46 CL.MLK Analyze
+Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page3' allocated in constructor at line 46 is not deallocated in destructor.
+
+AfdDlg.cpp:47 CL.MLK Analyze
+Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page4' allocated in constructor at line 47 is not deallocated in destructor.
+
+AfdDlg.cpp:48 CL.MLK Analyze
+Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page5' allocated in constructor at line 48 is not deallocated in destructor.
+
+AfdDlg.cpp:264 RH.LEAK Analyze
+Resource acquired to 'LoadImageA(AfxGetResourceHandle(),  ( (LPSTR) ( (ULONG_PTR) ( (WORD) (128) ) ) ), 1, 16, 16, 0)' at line 257 may be lost here.
+
+ModulVer.cpp:22 CL.FFM.COPY Analyze
+Double freeing of freed memory may be in class 'CModuleVersion'. Copy constructor is not defined.
+
+ModulVer.cpp:22 CL.FFM.ASSIGN Analyze
+Double freeing of freed memory may be in class 'CModuleVersion'. Operator= is not defined.
+
+ModulVer.cpp:63 MLK.MIGHT Analyze
+Possible memory leak. Dynamic memory stored in 'this->m_pVersionInfo' allocated through function 'new[]' at line 53 can be lost at line 63
+
+ModulVer.cpp:109 MLK.MIGHT Analyze
+Possible memory leak. Dynamic memory stored in 'this->m_pVersionInfo' allocated through function 'new[]' at line 93 can be lost at line 109
+
+ModulVer.cpp:175 RH.LEAK Analyze
+Resource acquired to 'hinst' at line 163 may be lost here.
+
+ModulVer.cpp:180 RH.LEAK Analyze
+Resource acquired to 'hinst' at line 163 may be lost here.
+
+Summary: 41 Local
+41 Total Issue(s)

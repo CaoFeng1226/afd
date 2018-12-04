@@ -1,0 +1,1 @@
+call devenv afd.sln /Rebuild

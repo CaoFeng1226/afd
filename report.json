@@ -1,0 +1,911 @@
+{
+  "id" : 2,
+  "code" : "UNINIT.STACK.MUST",
+  "message" : "'s32' is used uninitialized in this function.",
+  "method" : "func",
+  "line" : 86,
+  "file" : "D:\\afd\\Afd.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "func",
+    "file" : "D:\\afd\\Afd.cpp",
+    "lines" : [ {
+      "line" : 84,
+      "text" : "'s32' is declared"
+    }, {
+      "line" : 86,
+      "text" : "'s32' is used, but is uninitialized."
+    } ]
+  } ]
+}{
+  "id" : 3,
+  "code" : "UNINIT.HEAP.MUST",
+  "message" : "'p->a' gets its value from uninitialized heap memory area.",
+  "method" : "func",
+  "line" : 89,
+  "file" : "D:\\afd\\Afd.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "func",
+    "file" : "D:\\afd\\Afd.cpp",
+    "lines" : [ {
+      "line" : 83,
+      "text" : "'p->a' memory is allocated through call to 'malloc'"
+    }, {
+      "line" : 89,
+      "text" : "'p->a' is used, but is uninitialized."
+    } ]
+  } ]
+}{
+  "id" : 4,
+  "code" : "NPD.FUNC.MUST",
+  "message" : "Pointer 'p' returned from call to function 'malloc' at line 83 may be NULL and will be dereferenced at line 89.",
+  "method" : "func",
+  "line" : 89,
+  "file" : "D:\\afd\\Afd.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "func",
+    "file" : "D:\\afd\\Afd.cpp",
+    "lines" : [ {
+      "line" : 83,
+      "text" : "'p' is assigned the return value from function 'malloc'."
+    }, {
+      "line" : 89,
+      "text" : "'p' is explicitly dereferenced."
+    } ]
+  } ]
+}{
+  "id" : 5,
+  "code" : "MLK.MUST",
+  "message" : "Memory leak. Dynamic memory stored in 'p' allocated through function 'malloc' at line 83 is lost at line 94",
+  "method" : "func",
+  "line" : 94,
+  "file" : "D:\\afd\\Afd.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "func",
+    "file" : "D:\\afd\\Afd.cpp",
+    "lines" : [ {
+      "line" : 83,
+      "text" : "Dynamic memory stored in 'p' is allocated by calling function 'malloc'."
+    }, {
+      "line" : 94,
+      "text" : "Dynamic memory stored in '&(p->a)' is lost."
+    } ]
+  } ]
+}{
+  "id" : 1,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.BAD",
+  "message" : "sprintf format specification '%s' expects type 'char*' for 's', but parameter 9 has incompatible type 'CStringT<char,StrTraitMFC<char,ATL::ChTraitsCRT<char> > >'",
+  "method" : "LOG",
+  "line" : 235,
+  "file" : "D:\\afd\\Afd.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 8,
+  "code" : "CL.MLK",
+  "message" : "Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page1' allocated in constructor at line 44 is not deallocated in destructor.",
+  "method" : "CAfdDlg",
+  "line" : 44,
+  "file" : "D:\\afd\\AfdDlg.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "CAfdDlg",
+    "file" : "D:\\afd\\AfdDlg.cpp",
+    "lines" : [ {
+      "line" : 44,
+      "text" : "'page1' is allocated in the constructor."
+    }, {
+      "line" : 44,
+      "text" : "'page1' is not released in the destructor."
+    } ]
+  } ]
+}{
+  "id" : 9,
+  "code" : "CL.MLK",
+  "message" : "Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page3' allocated in constructor at line 46 is not deallocated in destructor.",
+  "method" : "CAfdDlg",
+  "line" : 46,
+  "file" : "D:\\afd\\AfdDlg.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "CAfdDlg",
+    "file" : "D:\\afd\\AfdDlg.cpp",
+    "lines" : [ {
+      "line" : 46,
+      "text" : "'page3' is allocated in the constructor."
+    }, {
+      "line" : 46,
+      "text" : "'page3' is not released in the destructor."
+    } ]
+  } ]
+}{
+  "id" : 10,
+  "code" : "CL.MLK",
+  "message" : "Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page4' allocated in constructor at line 47 is not deallocated in destructor.",
+  "method" : "CAfdDlg",
+  "line" : 47,
+  "file" : "D:\\afd\\AfdDlg.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "CAfdDlg",
+    "file" : "D:\\afd\\AfdDlg.cpp",
+    "lines" : [ {
+      "line" : 47,
+      "text" : "'page4' is allocated in the constructor."
+    }, {
+      "line" : 47,
+      "text" : "'page4' is not released in the destructor."
+    } ]
+  } ]
+}{
+  "id" : 11,
+  "code" : "CL.MLK",
+  "message" : "Possible memory leak in class 'CAfdDlg'. Memory referenced by 'page5' allocated in constructor at line 48 is not deallocated in destructor.",
+  "method" : "CAfdDlg",
+  "line" : 48,
+  "file" : "D:\\afd\\AfdDlg.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "CAfdDlg",
+    "file" : "D:\\afd\\AfdDlg.cpp",
+    "lines" : [ {
+      "line" : 48,
+      "text" : "'page5' is allocated in the constructor."
+    }, {
+      "line" : 48,
+      "text" : "'page5' is not released in the destructor."
+    } ]
+  } ]
+}{
+  "id" : 7,
+  "code" : "RH.LEAK",
+  "message" : "Resource acquired to 'LoadImageA(AfxGetResourceHandle(),  ( (LPSTR) ( (ULONG_PTR) ( (WORD) (128) ) ) ), 1, 16, 16, 0)' at line 257 may be lost here.",
+  "method" : "OnHide",
+  "line" : 264,
+  "file" : "D:\\afd\\AfdDlg.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "OnHide",
+    "file" : "D:\\afd\\AfdDlg.cpp",
+    "lines" : [ {
+      "line" : 253,
+      "text" : "!bTrayIconCreated is true"
+    }, {
+      "line" : 257,
+      "text" : "Resource is acquired: 'LoadImageA(AfxGetResourceHandle(),  ( (LPSTR) ( (ULONG_PTR) ( (WORD) (128) ) ) ), 1, 16, 16, 0)' in the call to 'LoadImageA'"
+    }, {
+      "line" : 264,
+      "text" : "Resource is lost: 'LoadImageA(AfxGetResourceHandle(),  ( (LPSTR) ( (ULONG_PTR) ( (WORD) (128) ) ) ), 1, 16, 16, 0)'"
+    } ]
+  } ]
+}{
+  "id" : 13,
+  "code" : "NPD.FUNC.MIGHT",
+  "message" : "Pointer 'pdb' returned from call to function 'HeapAlloc' at line 177 may be NULL and may be dereferenced at line 190.",
+  "method" : "Collect",
+  "line" : 190,
+  "file" : "D:\\afd\\AlexfPerf.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "Collect",
+    "file" : "D:\\afd\\AlexfPerf.cpp",
+    "lines" : [ {
+      "line" : 177,
+      "text" : "'pdb' is assigned the return value from function 'HeapAlloc'."
+    }, {
+      "line" : 180,
+      "text" : "Not entering loop, because 234==RegQueryValueExA( ( (HKEY) (ULONG_PTR) ( (LONG)2147483652) ), m_SObj, 0, 0,  (LPBYTE)pdb,  &dwBytes) is false"
+    }, {
+      "line" : 190,
+      "text" : "'pdb' is explicitly dereferenced."
+    } ]
+  } ]
+}{
+  "id" : 14,
+  "code" : "NPD.FUNC.MIGHT",
+  "message" : "Pointer 'pdb' returned from call to function 'HeapReAlloc' at line 186 may be NULL and may be dereferenced at line 190.",
+  "method" : "Collect",
+  "line" : 190,
+  "file" : "D:\\afd\\AlexfPerf.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "Collect",
+    "file" : "D:\\afd\\AlexfPerf.cpp",
+    "lines" : [ {
+      "line" : 180,
+      "text" : "Continue loop iteration, while 234==RegQueryValueExA( ( (HKEY) (ULONG_PTR) ( (LONG)2147483652) ), m_SObj, 0, 0,  (LPBYTE)pdb,  &dwBytes) is true"
+    }, {
+      "line" : 186,
+      "text" : "'pdb' is assigned the return value from function 'HeapReAlloc'."
+    }, {
+      "line" : 190,
+      "text" : "'pdb' is explicitly dereferenced."
+    } ]
+  } ]
+}{
+  "id" : 15,
+  "code" : "CL.FFM.COPY",
+  "message" : "Double freeing of freed memory may be in class 'CAlexfPerf'. Copy constructor is not defined.",
+  "method" : "~CAlexfPerf",
+  "line" : 291,
+  "file" : "D:\\afd\\AlexfPerf.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "~CAlexfPerf",
+    "file" : "D:\\afd\\AlexfPerf.cpp",
+    "lines" : [ {
+      "line" : 291,
+      "text" : "Possible release of the same pointer 'm_p95' several times in the destructor."
+    } ]
+  } ]
+}{
+  "id" : 16,
+  "code" : "CL.FFM.ASSIGN",
+  "message" : "Double freeing of freed memory may be in class 'CAlexfPerf'. Operator= is not defined.",
+  "method" : "~CAlexfPerf",
+  "line" : 291,
+  "file" : "D:\\afd\\AlexfPerf.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "~CAlexfPerf",
+    "file" : "D:\\afd\\AlexfPerf.cpp",
+    "lines" : [ {
+      "line" : 291,
+      "text" : "Possible release of the same pointer 'm_p95' several times in the destructor."
+    } ]
+  } ]
+}{
+  "id" : 12,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%04ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "bInit95",
+  "line" : 301,
+  "file" : "D:\\afd\\AlexfPerf.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 17,
+  "code" : "UNINIT.CTOR.MIGHT",
+  "message" : "'this->m_lpfnSendMail' might not be initialized in this constructor.",
+  "method" : "CIMapi",
+  "line" : 29,
+  "file" : "D:\\afd\\IMapi.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "CIMapi",
+    "file" : "D:\\afd\\IMapi.cpp",
+    "lines" : [ {
+      "line" : 22,
+      "text" : "m_hInstMail== (HINSTANCE)0 is true"
+    }, {
+      "line" : 29,
+      "text" : "'this->m_lpfnSendMail' is used, but is uninitialized."
+    } ]
+  } ]
+}{
+  "id" : 22,
+  "code" : "CL.FFM.COPY",
+  "message" : "Double freeing of freed memory may be in class 'CModuleVersion'. Copy constructor is not defined.",
+  "method" : "~CModuleVersion",
+  "line" : 22,
+  "file" : "D:\\afd\\ModulVer.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "~CModuleVersion",
+    "file" : "D:\\afd\\ModulVer.cpp",
+    "lines" : [ {
+      "line" : 22,
+      "text" : "Possible release of the same pointer 'm_pVersionInfo' several times in the destructor."
+    } ]
+  } ]
+}{
+  "id" : 23,
+  "code" : "CL.FFM.ASSIGN",
+  "message" : "Double freeing of freed memory may be in class 'CModuleVersion'. Operator= is not defined.",
+  "method" : "~CModuleVersion",
+  "line" : 22,
+  "file" : "D:\\afd\\ModulVer.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "~CModuleVersion",
+    "file" : "D:\\afd\\ModulVer.cpp",
+    "lines" : [ {
+      "line" : 22,
+      "text" : "Possible release of the same pointer 'm_pVersionInfo' several times in the destructor."
+    } ]
+  } ]
+}{
+  "id" : 18,
+  "code" : "MLK.MIGHT",
+  "message" : "Possible memory leak. Dynamic memory stored in 'this->m_pVersionInfo' allocated through function 'new[]' at line 53 can be lost at line 63",
+  "method" : "GetFileVersionInfoA",
+  "line" : 63,
+  "file" : "D:\\afd\\ModulVer.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "GetFileVersionInfoA",
+    "file" : "D:\\afd\\ModulVer.cpp",
+    "lines" : [ {
+      "line" : 53,
+      "text" : "Dynamic memory stored in 'this->m_pVersionInfo' is allocated by calling function 'new[]'."
+    }, {
+      "line" : 54,
+      "text" : "!GetFileVersionInfoA(filename, 0, len, m_pVersionInfo) is false"
+    }, {
+      "line" : 59,
+      "text" : "!VerQueryValueA(m_pVersionInfo, \"\\\\\",  &lpvi,  &iLen) is false"
+    }, {
+      "line" : 63,
+      "text" : "Dynamic memory stored in 'this->m_pVersionInfo' is lost."
+    } ]
+  } ]
+}{
+  "id" : 19,
+  "code" : "MLK.MIGHT",
+  "message" : "Possible memory leak. Dynamic memory stored in 'this->m_pVersionInfo' allocated through function 'new[]' at line 93 can be lost at line 109",
+  "method" : "GetDLLVersionInfo",
+  "line" : 109,
+  "file" : "D:\\afd\\ModulVer.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "GetDLLVersionInfo",
+    "file" : "D:\\afd\\ModulVer.cpp",
+    "lines" : [ {
+      "line" : 93,
+      "text" : "Dynamic memory stored in 'this->m_pVersionInfo' is allocated by calling function 'new[]'."
+    }, {
+      "line" : 94,
+      "text" : "!GetFileVersionInfoA(filename, 0, len, m_pVersionInfo) is false"
+    }, {
+      "line" : 102,
+      "text" : "!VerQueryValueA(m_pVersionInfo, \"\\\\\",  &lpvi,  &iLen) is false"
+    }, {
+      "line" : 109,
+      "text" : "Dynamic memory stored in 'this->m_pVersionInfo' is lost."
+    } ]
+  } ]
+}{
+  "id" : 21,
+  "code" : "RH.LEAK",
+  "message" : "Resource acquired to 'hinst' at line 163 may be lost here.",
+  "method" : "DllGetVersion",
+  "line" : 175,
+  "file" : "D:\\afd\\ModulVer.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "DllGetVersion",
+    "file" : "D:\\afd\\ModulVer.cpp",
+    "lines" : [ {
+      "line" : 163,
+      "text" : "Resource is acquired: 'hinst' in the call to 'LoadLibraryA'"
+    }, {
+      "line" : 175,
+      "text" : "Resource is lost: 'hinst'"
+    } ]
+  } ]
+}{
+  "id" : 20,
+  "code" : "RH.LEAK",
+  "message" : "Resource acquired to 'hinst' at line 163 may be lost here.",
+  "method" : "DllGetVersion",
+  "line" : 180,
+  "file" : "D:\\afd\\ModulVer.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "DllGetVersion",
+    "file" : "D:\\afd\\ModulVer.cpp",
+    "lines" : [ {
+      "line" : 163,
+      "text" : "Resource is acquired: 'hinst' in the call to 'LoadLibraryA'"
+    }, {
+      "line" : 180,
+      "text" : "Resource is lost: 'hinst'"
+    } ]
+  } ]
+}{
+  "id" : 24,
+  "code" : "ABV.GENERAL",
+  "message" : "Array 'a' of size 10 may use index value(s) 10",
+  "method" : "RasDialFunc",
+  "line" : 44,
+  "file" : "D:\\afd\\Page1.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 41,
+      "text" : "Array 'a' size is 10."
+    }, {
+      "line" : 43,
+      "text" : "i = 0"
+    }, {
+      "line" : 43,
+      "text" : "Entering loop, because i<=10 is true"
+    }, {
+      "line" : 43,
+      "text" : "'i' iterates from 0 to 10."
+    }, {
+      "line" : 44,
+      "text" : "Possible attempt to access element 10 of array 'a'."
+    } ]
+  }, {
+    "id" : 1,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 43,
+      "text" : "i = i + 1"
+    } ]
+  }, {
+    "id" : 2,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 43,
+      "text" : "Inferred value 'i' is '[0,10]'"
+    }, {
+      "line" : 43,
+      "text" : "Result of expression 'i + 1' is '[1,11]'"
+    } ]
+  } ]
+}{
+  "id" : 25,
+  "code" : "ABV.GENERAL",
+  "message" : "Array 'a' of size 10 may use index value(s) 11",
+  "method" : "RasDialFunc",
+  "line" : 47,
+  "file" : "D:\\afd\\Page1.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 41,
+      "text" : "Array 'a' size is 10."
+    }, {
+      "line" : 43,
+      "text" : "i = 0"
+    }, {
+      "line" : 43,
+      "text" : "Entering loop, because i<=10 is true"
+    }, {
+      "line" : 43,
+      "text" : "'i' iterates from 0 to 10."
+    }, {
+      "line" : 47,
+      "text" : "Possible attempt to access element 11 of array 'a'."
+    } ]
+  }, {
+    "id" : 1,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 43,
+      "text" : "i = i + 1"
+    } ]
+  }, {
+    "id" : 2,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 43,
+      "text" : "Inferred value 'i' is '[0,10]'"
+    }, {
+      "line" : 43,
+      "text" : "Result of expression 'i + 1' is '[1,11]'"
+    } ]
+  } ]
+}{
+  "id" : 26,
+  "code" : "ABV.GENERAL",
+  "message" : "Array 'a' of size 10 may use index value(s) 11",
+  "method" : "RasDialFunc",
+  "line" : 49,
+  "file" : "D:\\afd\\Page1.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 41,
+      "text" : "Array 'a' size is 10."
+    }, {
+      "line" : 43,
+      "text" : "i = 0"
+    }, {
+      "line" : 43,
+      "text" : "Entering loop, because i<=10 is true"
+    }, {
+      "line" : 43,
+      "text" : "'i' iterates from 0 to 10."
+    }, {
+      "line" : 49,
+      "text" : "Inferred value 'i' is '== 11'"
+    }, {
+      "line" : 49,
+      "text" : "Possible attempt to access element 11 of array 'a'."
+    } ]
+  }, {
+    "id" : 1,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 43,
+      "text" : "i = i + 1"
+    } ]
+  }, {
+    "id" : 2,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 43,
+      "text" : "Inferred value 'i' is '[0,10]'"
+    }, {
+      "line" : 43,
+      "text" : "Result of expression 'i + 1' is '[1,11]'"
+    } ]
+  } ]
+}{
+  "id" : 27,
+  "code" : "ABV.GENERAL",
+  "message" : "Array 'a' of size 10 may use index value(s) 12",
+  "method" : "RasDialFunc",
+  "line" : 51,
+  "file" : "D:\\afd\\Page1.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 41,
+      "text" : "Array 'a' size is 10."
+    }, {
+      "line" : 43,
+      "text" : "i = 0"
+    }, {
+      "line" : 43,
+      "text" : "Entering loop, because i<=10 is true"
+    }, {
+      "line" : 43,
+      "text" : "'i' iterates from 0 to 10."
+    }, {
+      "line" : 49,
+      "text" : "i = i + 1"
+    }, {
+      "line" : 51,
+      "text" : "Inferred value 'i' is '== 12'"
+    }, {
+      "line" : 51,
+      "text" : "Possible attempt to access element 12 of array 'a'."
+    } ]
+  }, {
+    "id" : 1,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 43,
+      "text" : "i = i + 1"
+    } ]
+  }, {
+    "id" : 2,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 43,
+      "text" : "Inferred value 'i' is '[0,10]'"
+    }, {
+      "line" : 43,
+      "text" : "Result of expression 'i + 1' is '[1,11]'"
+    } ]
+  }, {
+    "id" : 3,
+    "method" : "RasDialFunc",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 49,
+      "text" : "Inferred value 'i' is '== 11'"
+    }, {
+      "line" : 49,
+      "text" : "Result of expression 'i + 1' is '== 12'"
+    } ]
+  } ]
+}{
+  "id" : 28,
+  "code" : "FMM.MUST",
+  "message" : "Freeing mismatched memory from 'lpRasEntry'. Memory referenced by 'lpRasEntry' allocated through function 'new[]' at line 359 is illegally freed by passing argument 1 to function 'delete' at line 366",
+  "method" : "QueryConnections",
+  "line" : 366,
+  "file" : "D:\\afd\\Page1.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "QueryConnections",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 360,
+      "text" : "0==lpRasEntry is false"
+    }, {
+      "line" : 364,
+      "text" : "(600+3) ==dwRet is true"
+    }, {
+      "line" : 359,
+      "text" : "'lpRasEntry' is allocated by 'new[]'"
+    }, {
+      "line" : 366,
+      "text" : "'lpRasEntry' is freed by passing argument 1 to function 'delete'."
+    } ]
+  } ]
+}{
+  "id" : 29,
+  "code" : "FMM.MIGHT",
+  "message" : "Possible freeing of mismatched memory from 'lpRasEntry'. Memory referenced by 'lpRasEntry' allocated through function 'new[]' at line 359 is illegally freed by passing argument 1 to function 'delete' at line 390",
+  "method" : "QueryConnections",
+  "line" : 390,
+  "file" : "D:\\afd\\Page1.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "QueryConnections",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 360,
+      "text" : "0==lpRasEntry is false"
+    }, {
+      "line" : 364,
+      "text" : "(600+3) ==dwRet is false"
+    }, {
+      "line" : 388,
+      "text" : "0==cEntry is true"
+    }, {
+      "line" : 359,
+      "text" : "'lpRasEntry' is allocated by 'new[]'"
+    }, {
+      "line" : 390,
+      "text" : "'lpRasEntry' is freed by passing argument 1 to function 'delete'."
+    } ]
+  } ]
+}{
+  "id" : 30,
+  "code" : "FMM.MIGHT",
+  "message" : "Possible freeing of mismatched memory from 'lpRasEntry'. Memory referenced by 'lpRasEntry' allocated through function 'new[]' at line 359 is illegally freed by passing argument 1 to function 'delete' at line 413",
+  "method" : "QueryConnections",
+  "line" : 413,
+  "file" : "D:\\afd\\Page1.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "QueryConnections",
+    "file" : "D:\\afd\\Page1.cpp",
+    "lines" : [ {
+      "line" : 360,
+      "text" : "0==lpRasEntry is false"
+    }, {
+      "line" : 364,
+      "text" : "(600+3) ==dwRet is false"
+    }, {
+      "line" : 388,
+      "text" : "0==cEntry is false"
+    }, {
+      "line" : 359,
+      "text" : "'lpRasEntry' is allocated by 'new[]'"
+    }, {
+      "line" : 413,
+      "text" : "'lpRasEntry' is freed by passing argument 1 to function 'delete'."
+    } ]
+  } ]
+}{
+  "id" : 31,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'unsigned int'",
+  "method" : "LoadPrograms",
+  "line" : 308,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 32,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'unsigned int'",
+  "method" : "LoadPrograms",
+  "line" : 312,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 33,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "OnButtonProgAdd",
+  "line" : 339,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 34,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "OnButtonProgAdd",
+  "line" : 343,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 35,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "OnButtonProgEdit",
+  "line" : 371,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 36,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "OnButtonProgEdit",
+  "line" : 375,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 37,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "OnButtonProgDel",
+  "line" : 401,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 38,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "OnButtonProgDel",
+  "line" : 402,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 39,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "OnButtonProgDel",
+  "line" : 407,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 40,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "OnButtonProgDel",
+  "line" : 408,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 41,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "RunPrograms",
+  "line" : 454,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 42,
+  "code" : "SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED",
+  "message" : "sprintf format specification '%02ld' expects type 'long int' for 'd', but parameter 3 has a different type 'int'",
+  "method" : "RunPrograms",
+  "line" : 458,
+  "file" : "D:\\afd\\Page2.cpp",
+  "traceBlocks" : [ ]
+}{
+  "id" : 46,
+  "code" : "MLK.MUST",
+  "message" : "Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 36",
+  "method" : "GetVersionInfo",
+  "line" : 36,
+  "file" : "D:\\afd\\Page5.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "GetVersionInfo",
+    "file" : "D:\\afd\\Page5.cpp",
+    "lines" : [ {
+      "line" : 33,
+      "text" : "Dynamic memory stored in 'p_str' is allocated by calling function 'new[]'."
+    }, {
+      "line" : 36,
+      "text" : "Dynamic memory stored in 'p_str' is lost."
+    } ]
+  } ]
+}{
+  "id" : 47,
+  "code" : "MLK.MUST",
+  "message" : "Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 39",
+  "method" : "GetVersionInfo",
+  "line" : 39,
+  "file" : "D:\\afd\\Page5.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "GetVersionInfo",
+    "file" : "D:\\afd\\Page5.cpp",
+    "lines" : [ {
+      "line" : 33,
+      "text" : "Dynamic memory stored in 'p_str' is allocated by calling function 'new[]'."
+    }, {
+      "line" : 39,
+      "text" : "Dynamic memory stored in 'p_str' is lost."
+    } ]
+  } ]
+}{
+  "id" : 48,
+  "code" : "MLK.MUST",
+  "message" : "Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 41",
+  "method" : "GetVersionInfo",
+  "line" : 41,
+  "file" : "D:\\afd\\Page5.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "GetVersionInfo",
+    "file" : "D:\\afd\\Page5.cpp",
+    "lines" : [ {
+      "line" : 33,
+      "text" : "Dynamic memory stored in 'p_str' is allocated by calling function 'new[]'."
+    }, {
+      "line" : 41,
+      "text" : "Dynamic memory stored in 'p_str' is lost."
+    } ]
+  } ]
+}{
+  "id" : 50,
+  "code" : "MLK.MIGHT",
+  "message" : "Possible memory leak. Dynamic memory stored in 'pVerInfo' allocated through function 'new[]' at line 38 can be lost at line 41",
+  "method" : "GetVersionInfo",
+  "line" : 41,
+  "file" : "D:\\afd\\Page5.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "GetVersionInfo",
+    "file" : "D:\\afd\\Page5.cpp",
+    "lines" : [ {
+      "line" : 38,
+      "text" : "Dynamic memory stored in 'pVerInfo' is allocated by calling function 'new[]'."
+    }, {
+      "line" : 39,
+      "text" : "!pVerInfo is false"
+    }, {
+      "line" : 40,
+      "text" : "!GetFileVersionInfoA(pszFileName, 0, cbVerInfo, pVerInfo) is true"
+    }, {
+      "line" : 41,
+      "text" : "Dynamic memory stored in 'pVerInfo' is lost."
+    } ]
+  } ]
+}{
+  "id" : 49,
+  "code" : "MLK.MUST",
+  "message" : "Memory leak. Dynamic memory stored in 'p_str' allocated through function 'new[]' at line 33 is lost at line 73",
+  "method" : "GetVersionInfo",
+  "line" : 73,
+  "file" : "D:\\afd\\Page5.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "GetVersionInfo",
+    "file" : "D:\\afd\\Page5.cpp",
+    "lines" : [ {
+      "line" : 33,
+      "text" : "Dynamic memory stored in 'p_str' is allocated by calling function 'new[]'."
+    }, {
+      "line" : 73,
+      "text" : "Dynamic memory stored in 'p_str' is lost."
+    } ]
+  } ]
+}{
+  "id" : 45,
+  "code" : "NPD.FUNC.MUST",
+  "message" : "Pointer 'fil' returned from call to function 'fopen' at line 288 may be NULL and will be dereferenced at line 289.",
+  "method" : "InitPropertyPage",
+  "line" : 289,
+  "file" : "D:\\afd\\Page5.cpp",
+  "traceBlocks" : [ {
+    "id" : 0,
+    "method" : "InitPropertyPage",
+    "file" : "D:\\afd\\Page5.cpp",
+    "lines" : [ {
+      "line" : 288,
+      "text" : "'fil' is assigned the return value from function 'fopen'."
+    }, {
+      "line" : 289,
+      "text" : "'fil' is dereferenced by passing argument 4 to function 'fwrite'."
+    } ]
+  } ]
+}

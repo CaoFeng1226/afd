@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errorList xmlns="http://www.klocwork.com/inForce/report/1.0">
+<problem>
+ <problemID>1</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>LoadPrograms</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;unsigned int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>2</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>LoadPrograms</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;unsigned int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>3</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>OnButtonProgAdd</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>4</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>OnButtonProgAdd</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>5</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>OnButtonProgEdit</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>6</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>OnButtonProgEdit</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>7</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>OnButtonProgDel</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>8</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>OnButtonProgDel</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>9</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>OnButtonProgDel</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>10</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>OnButtonProgDel</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>11</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>RunPrograms</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>12</problemID>
+ <file>D:\work\afd\Page2.cpp</file>
+ <method>RunPrograms</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>13</problemID>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <method>Collect</method>
+ <code>NPD.FUNC.MIGHT</code>
+ <message>Pointer &apos;pdb&apos; returned from call to function &apos;HeapAlloc&apos; at line 177 may be NULL and may be dereferenced at line 190.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>14</problemID>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <method>Collect</method>
+ <code>NPD.FUNC.MIGHT</code>
+ <message>Pointer &apos;pdb&apos; returned from call to function &apos;HeapReAlloc&apos; at line 186 may be NULL and may be dereferenced at line 190.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>15</problemID>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <method>~CAlexfPerf</method>
+ <code>CL.FFM.COPY</code>
+ <message>Double freeing of freed memory may be in class &apos;CAlexfPerf&apos;. Copy constructor is not defined.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>16</problemID>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <method>~CAlexfPerf</method>
+ <code>CL.FFM.ASSIGN</code>
+ <message>Double freeing of freed memory may be in class &apos;CAlexfPerf&apos;. Operator= is not defined.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>17</problemID>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <method>bInit95</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%04ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>18</problemID>
+ <file>D:\work\afd\Page5.cpp</file>
+ <method>GetVersionInfo</method>
+ <code>MLK.MUST</code>
+ <message>Memory leak. Dynamic memory stored in &apos;p_str&apos; allocated through function &apos;new[]&apos; at line 33 is lost at line 36</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>19</problemID>
+ <file>D:\work\afd\Page5.cpp</file>
+ <method>GetVersionInfo</method>
+ <code>MLK.MUST</code>
+ <message>Memory leak. Dynamic memory stored in &apos;p_str&apos; allocated through function &apos;new[]&apos; at line 33 is lost at line 39</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>20</problemID>
+ <file>D:\work\afd\Page5.cpp</file>
+ <method>GetVersionInfo</method>
+ <code>MLK.MUST</code>
+ <message>Memory leak. Dynamic memory stored in &apos;p_str&apos; allocated through function &apos;new[]&apos; at line 33 is lost at line 41</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>21</problemID>
+ <file>D:\work\afd\Page5.cpp</file>
+ <method>GetVersionInfo</method>
+ <code>MLK.MIGHT</code>
+ <message>Possible memory leak. Dynamic memory stored in &apos;pVerInfo&apos; allocated through function &apos;new[]&apos; at line 38 can be lost at line 41</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>22</problemID>
+ <file>D:\work\afd\Page5.cpp</file>
+ <method>GetVersionInfo</method>
+ <code>MLK.MUST</code>
+ <message>Memory leak. Dynamic memory stored in &apos;p_str&apos; allocated through function &apos;new[]&apos; at line 33 is lost at line 73</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>23</problemID>
+ <file>D:\work\afd\Page5.cpp</file>
+ <method>InitPropertyPage</method>
+ <code>NPD.FUNC.MUST</code>
+ <message>Pointer &apos;fil&apos; returned from call to function &apos;fopen&apos; at line 288 may be NULL and will be dereferenced at line 289.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>24</problemID>
+ <file>D:\work\afd\IMapi.cpp</file>
+ <method>CIMapi</method>
+ <code>UNINIT.CTOR.MIGHT</code>
+ <message>&apos;this-&gt;m_lpfnSendMail&apos; might not be initialized in this constructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>25</problemID>
+ <file>D:\work\afd\Page1.cpp</file>
+ <method>RasDialFunc</method>
+ <code>ABV.GENERAL</code>
+ <message>Array &apos;a&apos; of size 10 may use index value(s) 10</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>26</problemID>
+ <file>D:\work\afd\Page1.cpp</file>
+ <method>RasDialFunc</method>
+ <code>ABV.GENERAL</code>
+ <message>Array &apos;a&apos; of size 10 may use index value(s) 11</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>27</problemID>
+ <file>D:\work\afd\Page1.cpp</file>
+ <method>QueryConnections</method>
+ <code>FMM.MUST</code>
+ <message>Freeing mismatched memory from &apos;lpRasEntry&apos;. Memory referenced by &apos;lpRasEntry&apos; allocated through function &apos;new[]&apos; at line 355 is illegally freed by passing argument 1 to function &apos;delete&apos; at line 362</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>28</problemID>
+ <file>D:\work\afd\Page1.cpp</file>
+ <method>QueryConnections</method>
+ <code>FMM.MIGHT</code>
+ <message>Possible freeing of mismatched memory from &apos;lpRasEntry&apos;. Memory referenced by &apos;lpRasEntry&apos; allocated through function &apos;new[]&apos; at line 355 is illegally freed by passing argument 1 to function &apos;delete&apos; at line 386</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>29</problemID>
+ <file>D:\work\afd\Page1.cpp</file>
+ <method>QueryConnections</method>
+ <code>FMM.MIGHT</code>
+ <message>Possible freeing of mismatched memory from &apos;lpRasEntry&apos;. Memory referenced by &apos;lpRasEntry&apos; allocated through function &apos;new[]&apos; at line 355 is illegally freed by passing argument 1 to function &apos;delete&apos; at line 409</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>30</problemID>
+ <file>D:\work\afd\Afd.cpp</file>
+ <method>LOG</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.BAD</code>
+ <message>sprintf format specification &apos;%s&apos; expects type &apos;char*&apos; for &apos;s&apos;, but parameter 9 has incompatible type &apos;CStringT&lt;char,StrTraitMFC&lt;char,ATL::ChTraitsCRT&lt;char&gt; &gt; &gt;&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>31</problemID>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <method>CAfdDlg</method>
+ <code>CL.MLK</code>
+ <message>Possible memory leak in class &apos;CAfdDlg&apos;. Memory referenced by &apos;page1&apos; allocated in constructor at line 44 is not deallocated in destructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>32</problemID>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <method>CAfdDlg</method>
+ <code>CL.MLK</code>
+ <message>Possible memory leak in class &apos;CAfdDlg&apos;. Memory referenced by &apos;page3&apos; allocated in constructor at line 46 is not deallocated in destructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>33</problemID>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <method>CAfdDlg</method>
+ <code>CL.MLK</code>
+ <message>Possible memory leak in class &apos;CAfdDlg&apos;. Memory referenced by &apos;page4&apos; allocated in constructor at line 47 is not deallocated in destructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>34</problemID>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <method>CAfdDlg</method>
+ <code>CL.MLK</code>
+ <message>Possible memory leak in class &apos;CAfdDlg&apos;. Memory referenced by &apos;page5&apos; allocated in constructor at line 48 is not deallocated in destructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>35</problemID>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <method>OnHide</method>
+ <code>RH.LEAK</code>
+ <message>Resource acquired to &apos;LoadImageA(AfxGetResourceHandle(),  ( (LPSTR) ( (ULONG_PTR) ( (WORD) (128) ) ) ), 1, 16, 16, 0)&apos; at line 257 may be lost here.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>36</problemID>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <method>~CModuleVersion</method>
+ <code>CL.FFM.COPY</code>
+ <message>Double freeing of freed memory may be in class &apos;CModuleVersion&apos;. Copy constructor is not defined.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>37</problemID>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <method>~CModuleVersion</method>
+ <code>CL.FFM.ASSIGN</code>
+ <message>Double freeing of freed memory may be in class &apos;CModuleVersion&apos;. Operator= is not defined.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>38</problemID>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <method>GetFileVersionInfoA</method>
+ <code>MLK.MIGHT</code>
+ <message>Possible memory leak. Dynamic memory stored in &apos;this-&gt;m_pVersionInfo&apos; allocated through function &apos;new[]&apos; at line 53 can be lost at line 63</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>39</problemID>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <method>GetDLLVersionInfo</method>
+ <code>MLK.MIGHT</code>
+ <message>Possible memory leak. Dynamic memory stored in &apos;this-&gt;m_pVersionInfo&apos; allocated through function &apos;new[]&apos; at line 93 can be lost at line 109</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>40</problemID>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <method>DllGetVersion</method>
+ <code>RH.LEAK</code>
+ <message>Resource acquired to &apos;hinst&apos; at line 163 may be lost here.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>41</problemID>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <method>DllGetVersion</method>
+ <code>RH.LEAK</code>
+ <message>Resource acquired to &apos;hinst&apos; at line 163 may be lost here.</message>
+ <citingStatus>Analyze</citingStatus>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+ </taxonomies>
+</problem>
+</errorList>

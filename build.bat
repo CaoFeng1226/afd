@@ -1,0 +1,1 @@
+devenv afd.sln /Rebuild

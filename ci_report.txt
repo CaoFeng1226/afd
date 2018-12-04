@@ -1,0 +1,5 @@
+{"newIssues":1,"newIssuesData":[
+         {"id":1,"code":"ABV.GENERAL",
+          "file":"D:\\work\\afdialer\\Page1.cpp","message":"Array 'a' of size 10 may use index value(s) 10",
+          "checksum":"eef45f3721d201d221946c785f781d4a5957c66f"}],
+          "newIssuesFiles":1,"fixedIssues":0,"fixedIssuesData":[],"analysisType":"incremental"}

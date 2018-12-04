@@ -1,0 +1,6 @@
+{"newIssues":0,"newIssuesData":[],"newIssuesFiles":0,"fixedIssues":2,
+"fixedIssuesData":[{"id":1,"code":"ABV.GENERAL","file":"D:\\work\\afdialer\\Page1.cpp",
+                    "message":"Array 'a' of size 10 may use index value(s) 10",
+                    "checksum":"ab45288372ba44dda73cd5ce15434ecf0525b4c7"},
+                   {"id":2,"code":"ABV.GENERAL","file":"D:\\work\\afdialer\\Page1.cpp","message":"Array 'a' of size 10 may use index value(s) 11",
+                   "checksum":"ab45288372ba44dda73cd5ce15434ecf0525b4c7"}],"analysisType":"incremental"}

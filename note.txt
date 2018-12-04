@@ -1,0 +1,1 @@
+kwcheck list -F scriptable --system

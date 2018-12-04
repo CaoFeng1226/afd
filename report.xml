@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="GBK"?>
+<errorList xmlns="http://www.klocwork.com/inForce/report/1.0">
+<problem>
+ <problemID>1</problemID>
+ <serverProblemID>33</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>308</line>
+ <method>LoadPrograms</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;unsigned int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>2</problemID>
+ <serverProblemID>34</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>312</line>
+ <method>LoadPrograms</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;unsigned int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>3</problemID>
+ <serverProblemID>35</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>339</line>
+ <method>OnButtonProgAdd</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>4</problemID>
+ <serverProblemID>36</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>343</line>
+ <method>OnButtonProgAdd</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>5</problemID>
+ <serverProblemID>37</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>371</line>
+ <method>OnButtonProgEdit</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>6</problemID>
+ <serverProblemID>38</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>375</line>
+ <method>OnButtonProgEdit</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>7</problemID>
+ <serverProblemID>39</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>401</line>
+ <method>OnButtonProgDel</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>8</problemID>
+ <serverProblemID>40</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>402</line>
+ <method>OnButtonProgDel</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>9</problemID>
+ <serverProblemID>41</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>407</line>
+ <method>OnButtonProgDel</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>10</problemID>
+ <serverProblemID>42</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>408</line>
+ <method>OnButtonProgDel</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>11</problemID>
+ <serverProblemID>43</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>454</line>
+ <method>RunPrograms</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>12</problemID>
+ <serverProblemID>44</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page2.cpp</file>
+ <line>458</line>
+ <method>RunPrograms</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%02ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>13</problemID>
+ <serverProblemID>14</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <line>190</line>
+ <method>Collect</method>
+ <code>NPD.FUNC.MIGHT</code>
+ <message>Pointer &apos;pdb&apos; returned from call to function &apos;HeapAlloc&apos; at line 177 may be NULL and may be dereferenced at line 190.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>14</problemID>
+ <serverProblemID>15</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <line>190</line>
+ <method>Collect</method>
+ <code>NPD.FUNC.MIGHT</code>
+ <message>Pointer &apos;pdb&apos; returned from call to function &apos;HeapReAlloc&apos; at line 186 may be NULL and may be dereferenced at line 190.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>15</problemID>
+ <serverProblemID>16</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <line>291</line>
+ <method>~CAlexfPerf</method>
+ <code>CL.FFM.COPY</code>
+ <message>Double freeing of freed memory may be in class &apos;CAlexfPerf&apos;. Copy constructor is not defined.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>16</problemID>
+ <serverProblemID>17</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <line>291</line>
+ <method>~CAlexfPerf</method>
+ <code>CL.FFM.ASSIGN</code>
+ <message>Double freeing of freed memory may be in class &apos;CAlexfPerf&apos;. Operator= is not defined.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>17</problemID>
+ <serverProblemID>18</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AlexfPerf.cpp</file>
+ <line>301</line>
+ <method>bInit95</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.UNDESIRED</code>
+ <message>sprintf format specification &apos;%04ld&apos; expects type &apos;long int&apos; for &apos;d&apos;, but parameter 3 has a different type &apos;int&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Review</severity>
+ <severitylevel>4</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>18</problemID>
+ <serverProblemID>45</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page5.cpp</file>
+ <line>36</line>
+ <method>GetVersionInfo</method>
+ <code>MLK.MUST</code>
+ <message>Memory leak. Dynamic memory stored in &apos;p_str&apos; allocated through function &apos;new[]&apos; at line 33 is lost at line 36</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>19</problemID>
+ <serverProblemID>46</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page5.cpp</file>
+ <line>39</line>
+ <method>GetVersionInfo</method>
+ <code>MLK.MUST</code>
+ <message>Memory leak. Dynamic memory stored in &apos;p_str&apos; allocated through function &apos;new[]&apos; at line 33 is lost at line 39</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>20</problemID>
+ <serverProblemID>47</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page5.cpp</file>
+ <line>41</line>
+ <method>GetVersionInfo</method>
+ <code>MLK.MUST</code>
+ <message>Memory leak. Dynamic memory stored in &apos;p_str&apos; allocated through function &apos;new[]&apos; at line 33 is lost at line 41</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>21</problemID>
+ <serverProblemID>49</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page5.cpp</file>
+ <line>41</line>
+ <method>GetVersionInfo</method>
+ <code>MLK.MIGHT</code>
+ <message>Possible memory leak. Dynamic memory stored in &apos;pVerInfo&apos; allocated through function &apos;new[]&apos; at line 38 can be lost at line 41</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>22</problemID>
+ <serverProblemID>48</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page5.cpp</file>
+ <line>73</line>
+ <method>GetVersionInfo</method>
+ <code>MLK.MUST</code>
+ <message>Memory leak. Dynamic memory stored in &apos;p_str&apos; allocated through function &apos;new[]&apos; at line 33 is lost at line 73</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>23</problemID>
+ <serverProblemID>50</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page5.cpp</file>
+ <line>289</line>
+ <method>InitPropertyPage</method>
+ <code>NPD.FUNC.MUST</code>
+ <message>Pointer &apos;fil&apos; returned from call to function &apos;fopen&apos; at line 288 may be NULL and will be dereferenced at line 289.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>24</problemID>
+ <serverProblemID>19</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\IMapi.cpp</file>
+ <line>29</line>
+ <method>CIMapi</method>
+ <code>UNINIT.CTOR.MIGHT</code>
+ <message>&apos;this-&gt;m_lpfnSendMail&apos; might not be initialized in this constructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="AUTOSAR RS C++14" metaInf="AUTOSAR C++14: Rule M8-5-1"/>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>25</problemID>
+ <serverProblemID>26</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page1.cpp</file>
+ <line>44</line>
+ <method>RasDialFunc</method>
+ <code>ABV.GENERAL</code>
+ <message>Array &apos;a&apos; of size 10 may use index value(s) 10</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="AUTOSAR RS C++14" metaInf="AUTOSAR C++14: Rule A5-2-5"/>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="21.18 (C90-2012 AMD1 mand.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>26</problemID>
+ <serverProblemID>27</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page1.cpp</file>
+ <line>47</line>
+ <method>RasDialFunc</method>
+ <code>ABV.GENERAL</code>
+ <message>Array &apos;a&apos; of size 10 may use index value(s) 11</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="AUTOSAR RS C++14" metaInf="AUTOSAR C++14: Rule A5-2-5"/>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="21.18 (C90-2012 AMD1 mand.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>27</problemID>
+ <serverProblemID>28</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page1.cpp</file>
+ <line>49</line>
+ <method>RasDialFunc</method>
+ <code>ABV.GENERAL</code>
+ <message>Array &apos;a&apos; of size 10 may use index value(s) 11</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="AUTOSAR RS C++14" metaInf="AUTOSAR C++14: Rule A5-2-5"/>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="21.18 (C90-2012 AMD1 mand.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>28</problemID>
+ <serverProblemID>29</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page1.cpp</file>
+ <line>51</line>
+ <method>RasDialFunc</method>
+ <code>ABV.GENERAL</code>
+ <message>Array &apos;a&apos; of size 10 may use index value(s) 12</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="AUTOSAR RS C++14" metaInf="AUTOSAR C++14: Rule A5-2-5"/>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="21.18 (C90-2012 AMD1 mand.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>29</problemID>
+ <serverProblemID>30</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page1.cpp</file>
+ <line>366</line>
+ <method>QueryConnections</method>
+ <code>FMM.MUST</code>
+ <message>Freeing mismatched memory from &apos;lpRasEntry&apos;. Memory referenced by &apos;lpRasEntry&apos; allocated through function &apos;new[]&apos; at line 359 is illegally freed by passing argument 1 to function &apos;delete&apos; at line 366</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Critical</severity>
+ <severitylevel>1</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="AUTOSAR RS C++14" metaInf="AUTOSAR C++14: Rule A18-5-3"/>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.2 (C90-2012 mand.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>30</problemID>
+ <serverProblemID>31</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page1.cpp</file>
+ <line>390</line>
+ <method>QueryConnections</method>
+ <code>FMM.MIGHT</code>
+ <message>Possible freeing of mismatched memory from &apos;lpRasEntry&apos;. Memory referenced by &apos;lpRasEntry&apos; allocated through function &apos;new[]&apos; at line 359 is illegally freed by passing argument 1 to function &apos;delete&apos; at line 390</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="AUTOSAR RS C++14" metaInf="AUTOSAR C++14: Rule A18-5-3"/>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.2 (C90-2012 mand.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>31</problemID>
+ <serverProblemID>32</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Page1.cpp</file>
+ <line>413</line>
+ <method>QueryConnections</method>
+ <code>FMM.MIGHT</code>
+ <message>Possible freeing of mismatched memory from &apos;lpRasEntry&apos;. Memory referenced by &apos;lpRasEntry&apos; allocated through function &apos;new[]&apos; at line 359 is illegally freed by passing argument 1 to function &apos;delete&apos; at line 413</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="AUTOSAR RS C++14" metaInf="AUTOSAR C++14: Rule A18-5-3"/>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.2 (C90-2012 mand.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>32</problemID>
+ <serverProblemID>8</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\Afd.cpp</file>
+ <line>184</line>
+ <method>LOG</method>
+ <code>SV.FMT_STR.PRINT_FORMAT_MISMATCH.BAD</code>
+ <message>sprintf format specification &apos;%s&apos; expects type &apos;char*&apos; for &apos;s&apos;, but parameter 9 has incompatible type &apos;CStringT&lt;char,StrTraitMFC&lt;char,ATL::ChTraitsCRT&lt;char&gt; &gt; &gt;&apos;</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>33</problemID>
+ <serverProblemID>9</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <line>44</line>
+ <method>CAfdDlg</method>
+ <code>CL.MLK</code>
+ <message>Possible memory leak in class &apos;CAfdDlg&apos;. Memory referenced by &apos;page1&apos; allocated in constructor at line 44 is not deallocated in destructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>34</problemID>
+ <serverProblemID>10</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <line>46</line>
+ <method>CAfdDlg</method>
+ <code>CL.MLK</code>
+ <message>Possible memory leak in class &apos;CAfdDlg&apos;. Memory referenced by &apos;page3&apos; allocated in constructor at line 46 is not deallocated in destructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>35</problemID>
+ <serverProblemID>11</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <line>47</line>
+ <method>CAfdDlg</method>
+ <code>CL.MLK</code>
+ <message>Possible memory leak in class &apos;CAfdDlg&apos;. Memory referenced by &apos;page4&apos; allocated in constructor at line 47 is not deallocated in destructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>36</problemID>
+ <serverProblemID>12</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <line>48</line>
+ <method>CAfdDlg</method>
+ <code>CL.MLK</code>
+ <message>Possible memory leak in class &apos;CAfdDlg&apos;. Memory referenced by &apos;page5&apos; allocated in constructor at line 48 is not deallocated in destructor.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>37</problemID>
+ <serverProblemID>13</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\AfdDlg.cpp</file>
+ <line>264</line>
+ <method>OnHide</method>
+ <code>RH.LEAK</code>
+ <message>Resource acquired to &apos;LoadImageA(AfxGetResourceHandle(),  ( (LPSTR) ( (ULONG_PTR) ( (WORD) (128) ) ) ), 1, 16, 16, 0)&apos; at line 257 may be lost here.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>38</problemID>
+ <serverProblemID>20</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <line>22</line>
+ <method>~CModuleVersion</method>
+ <code>CL.FFM.COPY</code>
+ <message>Double freeing of freed memory may be in class &apos;CModuleVersion&apos;. Copy constructor is not defined.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>39</problemID>
+ <serverProblemID>21</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <line>22</line>
+ <method>~CModuleVersion</method>
+ <code>CL.FFM.ASSIGN</code>
+ <message>Double freeing of freed memory may be in class &apos;CModuleVersion&apos;. Operator= is not defined.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Warning</severity>
+ <severitylevel>3</severitylevel>
+ <displayAs>Warning</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>40</problemID>
+ <serverProblemID>22</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <line>63</line>
+ <method>GetFileVersionInfoA</method>
+ <code>MLK.MIGHT</code>
+ <message>Possible memory leak. Dynamic memory stored in &apos;this-&gt;m_pVersionInfo&apos; allocated through function &apos;new[]&apos; at line 53 can be lost at line 63</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>41</problemID>
+ <serverProblemID>23</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <line>109</line>
+ <method>GetDLLVersionInfo</method>
+ <code>MLK.MIGHT</code>
+ <message>Possible memory leak. Dynamic memory stored in &apos;this-&gt;m_pVersionInfo&apos; allocated through function &apos;new[]&apos; at line 93 can be lost at line 109</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>42</problemID>
+ <serverProblemID>24</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <line>175</line>
+ <method>DllGetVersion</method>
+ <code>RH.LEAK</code>
+ <message>Resource acquired to &apos;hinst&apos; at line 163 may be lost here.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+<problem>
+ <problemID>43</problemID>
+ <serverProblemID>25</serverProblemID>
+ <isSystem>true</isSystem>
+ <file>D:\work\afd\ModulVer.cpp</file>
+ <line>180</line>
+ <method>DllGetVersion</method>
+ <code>RH.LEAK</code>
+ <message>Resource acquired to &apos;hinst&apos; at line 163 may be lost here.</message>
+ <citingStatus>Analyze</citingStatus>
+ <owner>unowned</owner>
+ <severity>Error</severity>
+ <severitylevel>2</severitylevel>
+ <displayAs>Error</displayAs>
+ <taxonomies>
+  <taxonomy name="C and C++" metaInf=""/>
+  <taxonomy name="Klocwork Quality Standard for C/C++" metaInf=""/>
+  <taxonomy name="MISRA C 2012 with Amendment 1 (C90)" metaInf="22.1 (C90-2012 req.)"/>
+ </taxonomies>
+</problem>
+</errorList>

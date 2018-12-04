@@ -1,0 +1,157 @@
+# Microsoft Developer Studio Generated Dependency File, included by Afd.mak
+
+.\Afd.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AFDialPanel.h"\
+	".\AlexfPerf.h"\
+	".\Page1.h"\
+	".\Page2.h"\
+	".\Page3.h"\
+	".\Page4.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\Afd.rc : \
+	".\res\Afd.ico"\
+	".\res\Afd.rc2"\
+	".\res\Alexf03.bmp"\
+	".\res\bground5.bmp"\
+	".\res\philosop.bmp"\
+	".\res\Starwars.mid"\
+	
+
+.\AfdDlg.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AFDialPanel.h"\
+	".\AlexfPerf.h"\
+	".\FaceWnd.h"\
+	".\HyperLink.h"\
+	".\Page1.h"\
+	".\Page2.h"\
+	".\Page3.h"\
+	".\Page4.h"\
+	".\Page5.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\AFDialPanel.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AFDialPanel.h"\
+	".\AlexfPerf.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\AlexfPerf.cpp : \
+	".\AlexfPerf.h"\
+	".\StdAfx.h"\
+	
+
+.\FaceWnd.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AlexfPerf.h"\
+	".\FaceWnd.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\HyperLink.cpp : \
+	".\HyperLink.h"\
+	".\StdAfx.h"\
+	
+
+.\IMapi.cpp : \
+	".\IMapi.h"\
+	".\StdAfx.h"\
+	
+
+.\ModulVer.cpp : \
+	".\ModulVer.h"\
+	".\StdAfx.h"\
+	
+
+.\Page1.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AlexfPerf.h"\
+	".\Page1.h"\
+	".\PhoneNumberDlg.h"\
+	".\RunProgDlg.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\Page2.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AlexfPerf.h"\
+	".\Page2.h"\
+	".\RunProgDlg.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\Page3.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AlexfPerf.h"\
+	".\Page3.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\Page4.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AFDialPanel.h"\
+	".\AlexfPerf.h"\
+	".\Page4.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\Page5.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AlexfPerf.h"\
+	".\FaceWnd.h"\
+	".\HyperLink.h"\
+	".\IMapi.h"\
+	".\ModulVer.h"\
+	".\Page5.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\PhoneNumberDlg.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AlexfPerf.h"\
+	".\PhoneNumberDlg.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\RunProgDlg.cpp : \
+	".\Afd.h"\
+	".\AfdDlg.h"\
+	".\AlexfPerf.h"\
+	".\RunProgDlg.h"\
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\trayicon.cpp : \
+	".\StdAfx.h"\
+	".\trayicon.h"\
+	

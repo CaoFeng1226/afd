@@ -1,0 +1,1 @@
+{"newIssues":0,"newIssuesData":[],"newIssuesFiles":0,"fixedIssues":0,"fixedIssuesData":[],"analysisType":"incremental"}

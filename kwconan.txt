@@ -1,0 +1,2 @@
+kwbuildproject --url http://haojcpc:8090/afd --incremental --conan --tables-directory table12_conan kwinject.12.out
+kwconan run --url http://haojcpc:8090/afd --tables-directory table12_conan --json > conan_report.txt
